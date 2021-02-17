@@ -12,10 +12,31 @@
         <div class="section">
             <div class="columns is-centered">
                 <div class="column is-8">
-                    <h1 class="title">Witaj</h1>
+                    <h1 class="title">Witaj w twoim notatniku!</h1>
                     <h2 class="subtitle">Za pomoca tej aplikacji mozesz robic notatki.</h2>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="columns is-centered">
+        <div class="column is-8">
+            <form class="form" id="addTaskForm" name="addTaskForm">
+                <div class="field has-addons">
+                    <div class="control is-expanded">
+                        <input class="input" type="text" name="title" id="title" placeholder="Twoja notatka">
+                    </div>
+                    <div class="control">
+                        <button class="button is-primary" type="submit" id="addTaskBtn">
+                            Dodaj
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="columns is-centered">
+        <div class="column is-8">
+            <div class="notification is-hidden is-light" id="addTaskMsg"></div>
         </div>
     </div>
 
