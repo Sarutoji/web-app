@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Sarutoji/web-app#readme",
   "dependencies": {
     "@koa/router": "^10.0.0",
+    "azure-storage": "^2.10.3",
     "koa": "^2.13.1",
     "koa-static": "^5.0.0"
   }
